@@ -16,4 +16,12 @@ public class Order {
     }
 
     public int getDeliveryTime() {return deliveryTime;}
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setDeliveryTime(int deliveryTime) {
+        this.deliveryTime = deliveryTime;
+    }
 }
